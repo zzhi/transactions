@@ -35,13 +35,13 @@ public class TransactionsApplicationTests {
         TClass tClass=new TClass();
         tClass.setId("1");
         tClass=  tClassService.get(tClass);
-        tClass.setName("zzhi3");
+        tClass.setName("zzhi1");
 
 
         Teacher teacher=new Teacher();
         teacher.setId("1");
         teacher=  teacherService.get(teacher);
-        teacher.setName("zzhi3");
+        teacher.setName("zzhi1");
 
         jtaTestService.tractionTest(tClass,teacher);
 
